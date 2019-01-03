@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: zerodowntime:2.1
+        image: zerodowntime:2.2
         imagePullPolicy: Never
         readinessProbe:
           initialDelaySeconds: 3
